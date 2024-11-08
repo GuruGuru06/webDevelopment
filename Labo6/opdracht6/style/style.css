@@ -1,0 +1,8 @@
+.checklist li::marker
+{
+    content: "☐ ";
+}
+
+.checklist li.checked::marker {
+    content: "☑ ";
+}
