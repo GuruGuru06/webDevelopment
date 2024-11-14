@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+th {
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+    padding: 10px;
+}
+
+th.maandHeader {
+    background-color: rgb(170, 170, 200);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #999;
+}
+
+/* Weekends */
+td:first-child,
+td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+/* Days from previous and next month */
+.andereMaand {
+    background-color: rgb(220, 220, 220);
+    color: #999;
+}
+
+/* Specific free day */
+.vrijeDag {
+    background-color: rgb(250, 120, 120);
+    color: white;
+    font-weight: bold;
+}
+
+/* Current month days */
+.huidigeMaand {
+    background-color: rgb(144, 224, 239);
+    color: black;
+}
