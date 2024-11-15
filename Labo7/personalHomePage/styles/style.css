@@ -1,0 +1,20 @@
+body
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+.info
+{
+    background-color: lightgray;
+}
+
+article
+{
+    background-color: lightgray;
+    font-family:times New Roman, serif
+}
+h1
+{
+    text-decoration: underline;
+}
