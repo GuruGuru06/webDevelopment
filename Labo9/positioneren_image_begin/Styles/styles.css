@@ -1,0 +1,21 @@
+article:nth-of-type(even) img
+{
+    float : left;
+    margin: 10px;
+}
+
+article:nth-of-type(odd) img
+{
+    float: right;
+    margin: 10px;
+}
+
+article
+{
+    margin: 10px;
+    font-size: 1.25em;
+}
+
+article {
+    overflow: hidden;
+}
