@@ -9,5 +9,127 @@ body
 header
 {
     height: 200px;
-    background-image: url("images/bgs);
+    background-image: url("../images/bgsky3.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    color: darkblue;
+}
+header p:first-child
+{
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+header p:last-child
+{
+    font-size: 240%;
+    font-weight: bold;
+}
+header img
+{
+    margin-right: 250px;
+    margin-bottom: 60px;
+    z-index: 999999;
+}
+
+.logo
+{
+    float: left;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+aside
+{
+    width: 25%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    color: #666666;
+    font-size: 90%;
+    float: right;
+}
+
+aside p
+{
+    margin-right:10px;
+    margin-left:10px;
+}
+aside h3
+{
+   color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+main
+{
+    width: 75%;
+    margin-top:10px;
+}
+
+.introduction
+{
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.introduction img
+{
+ padding-right: 20px;
+ padding-left: 20px;
+ padding-top: 20px;
+}
+.introduction span
+{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.gallery
+ {
+    background-color: #999999;
+ }
+.gallery img
+{
+    width: 180px;
+    height: 180px;
+}
+.gallery div
+{
+    color: white;
+    padding: 10px;
+    border: 1px dotted white;
+    margin: 20px;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+
+}
+
+.bottom
+{
+    background-color: #666666;
+    color:white;
+    line-height: 2em;
+
+}
+.bottom section
+{
+    margin-left: 120px;
+    display: inline-block;
+}
+.bottom a:hover
+{
+    color: red;
+}
+
+footer
+{
+    text-align: center;
+    background-color: white;
+    color: black;
 }
