@@ -1,0 +1,59 @@
+.container
+{
+    display: grid;
+    grid-template-columns:repeat(3, auto);
+    grid-template-rows:repeat(5, auto);
+    grid-template-areas:
+        'area1 area1 area1'
+        'area2 area3 area4'
+        'area2 area5 area5'
+        'area6 area6 area7'
+        'area8 area8 area8';
+
+
+}
+
+.container .block{
+    padding:20px;
+    color: white;
+    font-size: 4em;
+    font-weight:bold;
+    text-align:center;
+    margin: 5px;
+}
+
+.block.block1
+{
+    grid-area:area1;
+    background-color: red;
+
+}
+.block.block2{
+    grid-area:area2;
+    background-color: blue;
+
+}
+.block.block3{
+    grid-area:area3;
+    background-color: yellow;
+}
+.block.block4{
+    grid-area:area4;
+    background-color: green;
+}
+.block.block5{
+    grid-area:area5;
+    background-color: blueviolet;
+}
+.block.block6{
+    grid-area:area6;
+    background-color: orange;
+}
+.block.block7{
+    grid-area:area7;
+    background-color: black;
+}
+.block.block8{
+    grid-area:area8;
+    background-color: grey;
+}
