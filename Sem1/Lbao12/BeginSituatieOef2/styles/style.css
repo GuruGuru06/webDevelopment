@@ -48,9 +48,11 @@ nav a
 
 main
 {
+    width: 100%;
     background-color: grey;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+
 }
 
 section
@@ -76,17 +78,9 @@ img
 {
     padding: 0;
 }
-@media only screen and (min-width: 700px)
-{
-    main
-    {
-        background-color: grey;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    section
-    {
-
+@media screen and (min-width: 700px) {
+    main {
+        flex-direction: row;
     }
 }
 
