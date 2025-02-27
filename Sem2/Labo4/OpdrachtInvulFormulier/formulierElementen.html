@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head> 
+	<title>Oefening</title>
+	<link rel="stylesheet" type="text/css" href="Styles/index.css">
+</head> 
+
+<body>
+<form>
+	<fieldset>
+		<legend>Personal Information</legend>
+	<label for="firstName">First name*:</label> <input type="text" id="firstName" placeholder="Your first name" autofocus> <br>
+	<label for="lastName">Last name*:</label> <input type="text" id="lastName" placeholder="Your Last name">
+	</fieldset>
+	<fieldset>
+		<legend>Sports</legend>
+		<label>Which sport do you train?</label> <br> <br>
+		<input type="checkbox" id="running"><label for="running">running</label> <br>
+		<input type="checkbox" id="swimming"><label for="swimming">swimming</label> <br>
+		<input type="checkbox" id="rowing"><label for="rowing">Rowing</label>
+	</fieldset>
+	<fieldset>
+		<legend>Gender</legend>
+		<input name="gender" type="radio" id="male"><label for="male">Male</label> <br>
+		<input name="gender" type="radio" id="female"><label for="female">Female</label> <br>
+		<input name="gender" type="radio" id="other"><label for="other">Other/ Prefer not to say</label>
+	</fieldset>
+	<fieldset>
+		<legend>Favorites</legend>
+		<label for="favMovie">Favorite movie:</label> <input type="text" id="favMovie"> <br>
+		<label for="favQuote">Favorite quote:</label> <input type="text" id="favQuote" placeholder="Write your favorite quote"> <br>
+		<label for="food">Favorite food</label>
+		<select id="food">
+			<option>Hamburger</option>
+			<option>Hot Dog</option>
+			<option>Pizza</option>
+		</select><br>
+		<label for="flavor">Choose a flavor:</label> <input type="text" id="flavor"> <br>
+	</fieldset>
+
+	<fieldset>
+		<legend>Security & Contact</legend>
+		<label for="pass">Password*:</label> <input type="text" id="pass"> <br>
+		<label for="email">Email address*:</label> <input type="text" id="email" placeholder="Enter your email address"> <br>
+		<label for="favSite">Favorite site:</label> <input type="url" id="favSite" placeholder="Enter the URL of your favorite site"> <br>
+	</fieldset>
+	<fieldset>
+		<legend>Additional Information</legend>
+		<label for="favNumb">Favorite number(1-10):</label> <input type="number" id="favNumb" min="1" max="10" > <br>
+		<label for="favnum1">Favorite number (11-1000):</label> <input type="range" id="favnum1" min="11" max="1000"><br>
+		<label for="bDay">When were you born?</label> <input type="date" id="bDay"><br>
+		<label for="zipcode">Belgium zip-code reg number*:</label> <input type="text" id="zipcode" placeholder="9999">
+	</fieldset>
+	<fieldset>
+		<legend>Miscellaneous</legend>
+		<label for="sfs">Search for something:</label> <input type="text" id="sfs"> <br>
+		<label for="color">What is your favorite color?</label> <input type="color" id="color"><br>
+		<label for="file">Upload a file:</label> <input type="file" id="file"><br>
+	</fieldset>
+	<input type="submit" value="Submit">
+</form>
+
+	<script src="Scripts/index.js"></script>
+</body>
+
+</html> 

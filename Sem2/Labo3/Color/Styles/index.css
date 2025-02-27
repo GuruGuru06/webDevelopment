@@ -1,0 +1,14 @@
+.colorDemo
+{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    background-color:rgb(0,0,0);
+    float:right;
+}
+
+section
+{
+    display:grid;
+   grid-template-columns:1fr 1fr 18fr;
+}
