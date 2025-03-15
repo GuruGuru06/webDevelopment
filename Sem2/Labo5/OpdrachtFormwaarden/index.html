@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head> 
+	<title>Oefening</title>
+	<link rel="stylesheet" type="text/css" href="Styles/index.css">
+</head> 
+
+<body>
+<h2>Opdracht: Formulier</h2>
+<form method="post">
+	<div>
+		<label for="is_roker">Is roker</label>
+		<input type="checkbox" id="is_roker" name="is_roker">
+	</div>
+	<br>
+	<div>
+		<label>Moedertaal:</label>
+		<input type="radio" id="moedertaal_nl" name="moedertaal" value="nl"> <label for="moedertaal_nl">Nederlands</label>
+		<input type="radio" id="moedertaal_fr" name="moedertaal" value="fr"> <label for="moedertaal_fr">Frans</label>
+		<input type="radio" id="moedertaal_en" name="moedertaal" value="en"> <label for="moedertaal_en">Engels</label>
+	</div>
+	<br>
+	<div>
+		<label for="buurland">Favoriete buurland</label>
+		<select name="buurland" id="buurland">
+			<option value="Nederland">Nederland</option>
+			<option value="Frankrijk" selected>Frankrijk</option>
+			<option value="Duitsland">Duitsland</option>
+		</select>
+	</div>
+	<br>
+	<div>
+		<label for="bestelling">Bestelling</label>
+		<select name="bestelling[]" id="bestelling" multiple>
+			<option value="aardappelen">Aardappelen</option>
+			<option value="brood">Brood</option>
+			<option value="melk">Melk</option>
+			<option value="biefstuk">Biefstuk</option>
+			<option value="chips">Chips</option>
+			<option value="krant">Krant</option>
+		</select>
+	</div>
+	<br>
+	<button type="submit" id="button">Toon resultaat</button>
+</form>
+	<script src="Scripts/index.js"></script>
+</body>
+
+</html> 
